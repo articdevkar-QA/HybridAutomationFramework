@@ -1,0 +1,747 @@
+2026-01-12 16:42:47 INFO  LoginTest - Browser is loading
+2026-01-12 16:42:53 WARN  LoginTest - Login page should be visible
+2026-01-12 16:42:53 DEBUG LoginTest - User is entering username and password
+2026-01-12 16:42:55 INFO  LoginTest - test got passed
+2026-01-12 16:42:55 INFO  LoginTest - The final result isPassed
+2026-01-12 16:43:32 INFO  LoginTest - Browser is loading
+2026-01-12 16:43:36 WARN  LoginTest - Login page should be visible
+2026-01-12 16:43:36 DEBUG LoginTest - User is entering username and password
+2026-01-12 16:59:43 INFO  LoginTest - Browser is loading
+2026-01-12 16:59:46 WARN  LoginTest - Login page should be visible
+2026-01-12 16:59:46 DEBUG LoginTest - User is entering username and password
+2026-01-12 16:59:48 INFO  LoginTest - test got passed
+2026-01-12 16:59:48 INFO  LoginTest - The final result isPassed
+2026-01-12 17:00:07 INFO  LoginTest - Browser is loading
+2026-01-12 17:00:10 WARN  LoginTest - Login page should be visible
+2026-01-12 17:00:10 DEBUG LoginTest - User is entering username and password
+2026-01-12 17:21:47 INFO  LoginTest - Browser is loading
+2026-01-12 17:21:50 WARN  LoginTest - Login page should be visible
+2026-01-12 17:21:50 DEBUG LoginTest - User is entering username and password
+2026-01-12 17:25:17 INFO  LoginTest - Browser is loading
+2026-01-12 17:25:20 WARN  LoginTest - Login page should be visible
+2026-01-12 17:25:20 DEBUG LoginTest - User is entering username and password
+2026-01-12 17:27:19 INFO  LoginTest - Browser is loading
+2026-01-12 17:27:21 WARN  LoginTest - Login page should be visible
+2026-01-12 17:27:21 DEBUG LoginTest - User is entering username and password
+2026-01-12 17:30:29 INFO  LoginTest - Browser is loading
+2026-01-12 17:30:31 WARN  LoginTest - Login page should be visible
+2026-01-12 17:30:31 DEBUG LoginTest - User is entering username and password
+2026-01-12 17:32:28 INFO  LoginTest - Browser is loading
+2026-01-12 17:32:31 WARN  LoginTest - Login page should be visible
+2026-01-12 17:32:31 DEBUG LoginTest - User is entering username and password
+2026-01-12 17:32:31 ERROR LoginTest - test got failedno such element: Unable to locate element: {"method":"css selector","selector":"#pass1"}
+  (Session info: chrome=143.0.7499.192)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d32ab8f8db9da7b69e9506c750b02a4, findElement {using=id, value=pass1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.192, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59786}, goog:processID: 17452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59786/devtoo..., se:cdpVersion: 143.0.7499.192, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d32ab8f8db9da7b69e9506c750b02a4
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pass1"}
+  (Session info: chrome=143.0.7499.192)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d32ab8f8db9da7b69e9506c750b02a4, findElement {using=id, value=pass1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.192, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59786}, goog:processID: 17452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59786/devtoo..., se:cdpVersion: 143.0.7499.192, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d32ab8f8db9da7b69e9506c750b02a4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.39.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source) ~[?:?]
+	at org.fb.pages.qa.FBLoginPage.login(FBLoginPage.java:26) ~[test-classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:54) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 17:32:31 INFO  LoginTest - The final result isfailed
+2026-01-12 23:25:07 INFO  LoginTest - Browser is loading
+2026-01-12 23:25:07 ERROR LoginTest - test got failedCannot invoke "org.utils.fb.qa.Screenshots_Utils.Screenshot()" because "this.screenshots" is null
+java.lang.NullPointerException: Cannot invoke "org.utils.fb.qa.Screenshots_Utils.Screenshot()" because "this.screenshots" is null
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:47) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:25:07 INFO  LoginTest - The final result isfailed
+2026-01-12 23:26:24 INFO  LoginTest - Browser is loading
+2026-01-12 23:26:24 ERROR LoginTest - test got failedCannot invoke "org.utils.fb.qa.Screenshots_Utils.Screenshot()" because "this.screenshots" is null
+java.lang.NullPointerException: Cannot invoke "org.utils.fb.qa.Screenshots_Utils.Screenshot()" because "this.screenshots" is null
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:47) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:26:24 INFO  LoginTest - The final result isfailed
+2026-01-12 23:27:36 INFO  LoginTest - Browser is loading
+2026-01-12 23:27:36 ERROR LoginTest - test got failedCannot invoke "org.utils.fb.qa.Screenshots_Utils.Screenshot()" because "this.screenshot" is null
+java.lang.NullPointerException: Cannot invoke "org.utils.fb.qa.Screenshots_Utils.Screenshot()" because "this.screenshot" is null
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:47) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:27:37 INFO  LoginTest - The final result isfailed
+2026-01-12 23:28:26 INFO  LoginTest - Browser is loading
+2026-01-12 23:28:26 ERROR LoginTest - test got failedCannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at org.utils.fb.qa.Screenshots_Utils.Screenshot(Screenshots_Utils.java:18) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:48) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:28:26 INFO  LoginTest - The final result isfailed
+2026-01-12 23:30:08 INFO  LoginTest - Browser is loading
+2026-01-12 23:30:08 ERROR LoginTest - test got failedCannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at org.utils.fb.qa.Screenshots_Utils.Screenshot(Screenshots_Utils.java:18) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:48) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:30:08 INFO  LoginTest - The final result isfailed
+2026-01-12 23:30:38 INFO  LoginTest - Browser is loading
+2026-01-12 23:30:38 ERROR LoginTest - test got failedCannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at org.utils.fb.qa.Screenshots_Utils.Screenshot(Screenshots_Utils.java:18) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:48) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:30:38 INFO  LoginTest - The final result isfailed
+2026-01-12 23:32:16 INFO  LoginTest - Browser is loading
+2026-01-12 23:32:16 ERROR LoginTest - test got failedCannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at org.utils.fb.qa.Screenshots_Utils.Screenshot(Screenshots_Utils.java:18) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:48) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:32:16 INFO  LoginTest - The final result isfailed
+2026-01-12 23:34:19 INFO  LoginTest - Browser is loading
+2026-01-12 23:34:19 ERROR LoginTest - test got failedCannot format given Object as a Date
+java.lang.IllegalArgumentException: Cannot format given Object as a Date
+	at java.base/java.text.DateFormat.format(DateFormat.java:346) ~[?:?]
+	at java.base/java.text.Format.format(Format.java:163) ~[?:?]
+	at org.utils.fb.qa.Screenshots_Utils.Screenshot(Screenshots_Utils.java:19) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:48) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:34:19 INFO  LoginTest - The final result isfailed
+2026-01-12 23:35:53 INFO  LoginTest - Browser is loading
+2026-01-12 23:35:53 ERROR LoginTest - test got failedCannot format given Object as a Date
+java.lang.IllegalArgumentException: Cannot format given Object as a Date
+	at java.base/java.text.DateFormat.format(DateFormat.java:346) ~[?:?]
+	at java.base/java.text.Format.format(Format.java:163) ~[?:?]
+	at org.utils.fb.qa.Screenshots_Utils.Screenshot(Screenshots_Utils.java:19) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:48) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:36:42 INFO  LoginTest - Browser is loading
+2026-01-12 23:36:48 WARN  LoginTest - Login page should be visible
+2026-01-12 23:36:48 DEBUG LoginTest - User is entering username and password
+2026-01-12 23:36:48 ERROR LoginTest - test got failedCannot format given Object as a Date
+java.lang.IllegalArgumentException: Cannot format given Object as a Date
+	at java.base/java.text.DateFormat.format(DateFormat.java:346) ~[?:?]
+	at java.base/java.text.Format.format(Format.java:163) ~[?:?]
+	at org.utils.fb.qa.Screenshots_Utils.Screenshot(Screenshots_Utils.java:19) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:57) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:37:05 INFO  LoginTest - Browser is loading
+2026-01-12 23:37:08 WARN  LoginTest - Login page should be visible
+2026-01-12 23:37:08 DEBUG LoginTest - User is entering username and password
+2026-01-12 23:37:08 ERROR LoginTest - test got failedCannot format given Object as a Date
+java.lang.IllegalArgumentException: Cannot format given Object as a Date
+	at java.base/java.text.DateFormat.format(DateFormat.java:346) ~[?:?]
+	at java.base/java.text.Format.format(Format.java:163) ~[?:?]
+	at org.utils.fb.qa.Screenshots_Utils.Screenshot(Screenshots_Utils.java:19) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:57) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:37:47 INFO  LoginTest - Browser is loading
+2026-01-12 23:37:49 ERROR LoginTest - test got failedunknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=143.0.7499.192)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb99713949005bc0b33829f9c7e34755, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.192, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52084}, goog:processID: 19716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52084/devtoo..., se:cdpVersion: 143.0.7499.192, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb99713949005bc0b33829f9c7e34755
+org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=143.0.7499.192)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb99713949005bc0b33829f9c7e34755, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.192, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52084}, goog:processID: 19716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52084/devtoo..., se:cdpVersion: 143.0.7499.192, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb99713949005bc0b33829f9c7e34755
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:642) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1098) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.base.fb.qa.BaseTest.initialization(BaseTest.java:37) ~[classes/:?]
+	at org.fb.test.qa.LoggerTest.test3(LoggerTest.java:50) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-01-12 23:38:12 INFO  LoginTest - Browser is loading
+2026-01-12 23:38:15 WARN  LoginTest - Login page should be visible
+2026-01-12 23:38:15 DEBUG LoginTest - User is entering username and password
+2026-01-12 23:38:19 INFO  LoginTest - The final result isPassed
+2026-01-12 23:39:04 INFO  LoginTest - Browser is loading
+2026-01-12 23:39:08 WARN  LoginTest - Login page should be visible
+2026-01-12 23:39:08 DEBUG LoginTest - User is entering username and password
+2026-01-12 23:39:11 INFO  LoginTest - The final result isPassed
+2026-01-12 23:39:22 INFO  LoginTest - Browser is loading
+2026-01-12 23:39:25 WARN  LoginTest - Login page should be visible
+2026-01-12 23:39:25 DEBUG LoginTest - User is entering username and password
+2026-01-27 14:03:33 INFO  LoginTest - Browser is loading
+2026-01-27 14:03:43 WARN  LoginTest - Login page should be visible
+2026-01-27 14:03:43 DEBUG LoginTest - User is entering username and password
+2026-01-27 14:05:32 INFO  LoginTest - Browser is loading
+2026-01-27 14:05:37 WARN  LoginTest - Login page should be visible
+2026-01-27 14:05:37 DEBUG LoginTest - User is entering username and password
+2026-01-27 14:05:41 INFO  LoginTest - test got passed
+2026-01-27 14:05:41 INFO  LoginTest - The final result isPassed
+2026-01-27 17:31:08 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 17:31:08 INFO  TestNGListernerUtils - Test failed
+2026-01-27 17:31:08 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 17:31:13 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 17:31:14 INFO  TestNGListernerUtils - Test failed
+2026-01-27 17:31:14 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 17:31:14 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 19:28:01 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 19:28:02 INFO  TestNGListernerUtils - Test failed
+2026-01-27 19:28:02 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 19:28:07 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 19:28:07 INFO  TestNGListernerUtils - Test failed
+2026-01-27 19:28:07 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 19:28:07 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 19:31:16 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 19:31:16 INFO  TestNGListernerUtils - Test failed
+2026-01-27 19:31:16 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 19:31:17 INFO  TestNGListernerUtils - Test failed
+2026-01-27 19:31:17 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 19:31:17 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 19:33:04 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 19:33:04 INFO  TestNGListernerUtils - Test failed
+2026-01-27 19:33:04 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 19:33:04 INFO  TestNGListernerUtils - Test failed
+2026-01-27 19:33:04 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 19:33:04 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 19:34:41 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 19:34:41 INFO  TestNGListernerUtils - Test failed
+2026-01-27 19:34:41 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 19:34:46 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 19:34:46 INFO  TestNGListernerUtils - Test failed
+2026-01-27 19:34:46 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 19:34:47 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 19:55:48 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 19:55:52 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 19:55:59 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 19:56:00 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 19:56:00 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 20:01:24 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 20:01:30 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 20:01:38 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 20:01:40 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 20:01:40 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 20:25:36 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 20:25:36 INFO  TestNGListernerUtils - Test failed
+2026-01-27 20:25:36 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 20:25:43 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 20:25:45 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 20:25:45 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 20:43:02 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-01-27 20:43:02 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-01-27 20:43:13 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 20:43:13 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 20:43:18 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 20:43:19 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 20:43:20 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 20:44:46 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-01-27 20:44:46 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-01-27 20:44:50 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 20:44:51 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 20:44:51 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 20:44:52 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 20:44:52 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 23:41:58 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-01-27 23:41:58 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-01-27 23:42:09 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 23:42:09 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 23:42:11 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 23:42:11 INFO  TestNGListernerUtils - Test failed
+2026-01-27 23:42:11 DEBUG TestNGListernerUtils - Test Debugg
+2026-01-27 23:42:12 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 23:42:16 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 23:44:28 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-01-27 23:44:32 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 23:44:36 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 23:44:40 INFO  TestNGListernerUtils - Test Finshed
+2026-01-27 23:44:41 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-01-27 23:44:44 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-27 23:44:46 INFO  TestNGListernerUtils - Test Passed
+2026-01-27 23:44:46 INFO  TestNGListernerUtils - Test Finshed
+2026-01-28 10:19:38 DEBUG PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:19:38 DEBUG PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-28 10:19:38 DEBUG PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-28 10:21:00 DEBUG PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:21:00 DEBUG PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-28 10:21:00 DEBUG PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-28 10:34:11 DEBUG PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:34:11 DEBUG PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-28 10:34:11 DEBUG PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-29 22:54:26 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-01-29 22:54:34 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-29 22:54:37 INFO  TestNGListernerUtils - Test Passed
+2026-01-29 22:54:41 INFO  TestNGListernerUtils - Test Finshed
+2026-01-29 22:54:41 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-01-29 22:54:43 INFO  TestNGListernerUtils - Test execution is getting start
+2026-01-29 22:54:44 INFO  TestNGListernerUtils - Test Passed
+2026-01-29 22:54:44 INFO  TestNGListernerUtils - Test Finshed
+2026-02-06 23:59:02 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-06 23:59:11 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-06 23:59:14 INFO  TestNGListernerUtils - Test Passed
+2026-02-06 23:59:18 INFO  TestNGListernerUtils - Test Finshed
+2026-02-06 23:59:19 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-06 23:59:21 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-06 23:59:22 INFO  TestNGListernerUtils - Test Passed
+2026-02-06 23:59:23 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:26:10 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 01:26:17 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:26:21 INFO  TestNGListernerUtils - Test failed
+2026-02-07 01:26:21 DEBUG TestNGListernerUtils - Test Debugg
+2026-02-07 01:26:25 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:26:26 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 01:26:28 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:26:29 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 01:26:29 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:30:55 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 01:30:57 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:31:01 INFO  TestNGListernerUtils - Test failed
+2026-02-07 01:31:01 DEBUG TestNGListernerUtils - Test Debugg
+2026-02-07 01:31:06 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:31:06 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 01:31:08 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:31:09 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 01:31:09 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:33:12 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 01:33:15 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:33:19 INFO  TestNGListernerUtils - Test failed
+2026-02-07 01:33:19 DEBUG TestNGListernerUtils - Test Debugg
+2026-02-07 01:33:23 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:33:23 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 01:33:26 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:33:27 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 01:33:27 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:35:53 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 01:35:55 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:35:59 INFO  TestNGListernerUtils - Test failed
+2026-02-07 01:35:59 DEBUG TestNGListernerUtils - Test Debugg
+2026-02-07 01:36:03 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:36:04 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 01:36:06 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:36:07 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 01:36:07 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:38:05 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 01:38:08 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:38:12 INFO  TestNGListernerUtils - Test failed
+2026-02-07 01:38:12 DEBUG TestNGListernerUtils - Test Debugg
+2026-02-07 01:38:16 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 01:38:17 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 01:38:19 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 01:38:20 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 01:38:21 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 10:04:21 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 10:04:29 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 10:04:32 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 10:04:36 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 10:04:37 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 10:04:40 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 10:04:41 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 10:04:41 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 10:23:33 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 10:23:38 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 10:23:41 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 10:23:45 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 10:23:46 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 10:23:48 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 10:23:49 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 10:23:49 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 10:43:27 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 10:43:30 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 10:43:33 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 10:43:37 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 10:43:37 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 10:43:43 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 10:43:45 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 10:43:45 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:12:21 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 22:12:31 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:12:35 INFO  TestNGListernerUtils - Test failed
+2026-02-07 22:12:35 DEBUG TestNGListernerUtils - Test Debugg
+2026-02-07 22:12:40 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:12:40 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 22:12:42 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:12:43 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 22:12:43 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:15:06 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 22:15:10 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:15:10 WARN  TestNGListernerUtils - Test Debugg
+2026-02-07 22:15:10 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:15:10 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 22:15:12 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:15:12 WARN  TestNGListernerUtils - Test Debugg
+2026-02-07 22:15:12 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:15:38 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 22:15:41 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:15:41 WARN  TestNGListernerUtils - Test Debugg
+2026-02-07 22:15:41 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:15:41 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 22:15:43 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:15:43 WARN  TestNGListernerUtils - Test Debugg
+2026-02-07 22:15:43 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:16:13 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 22:16:17 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:16:21 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 22:16:25 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:16:25 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 22:16:27 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:16:28 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 22:16:29 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:17:24 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-07 22:17:28 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:17:33 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 22:17:37 INFO  TestNGListernerUtils - Test Finshed
+2026-02-07 22:17:37 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-07 22:17:46 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-07 22:17:47 INFO  TestNGListernerUtils - Test Passed
+2026-02-07 22:17:48 INFO  TestNGListernerUtils - Test Finshed

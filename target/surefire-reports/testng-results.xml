@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-07T22:17:24 IST" name="crossbrowsersuite" finished-at="2026-02-07T22:17:48 IST" duration-ms="23177">
+    <groups>
+    </groups>
+    <test started-at="2026-02-07T22:17:24 IST" name="LoginTest" finished-at="2026-02-07T22:17:37 IST" duration-ms="12475">
+      <class name="org.fb.test.qa.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.fb.test.qa.LoginTest@14a54ef6]" started-at="2026-02-07T22:17:24 IST" name="setUp" finished-at="2026-02-07T22:17:28 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_FBLoginTest()[pri:0, instance:org.fb.test.qa.LoginTest@14a54ef6]" started-at="2026-02-07T22:17:28 IST" name="TC001_FBLoginTest" finished-at="2026-02-07T22:17:33 IST" duration-ms="4475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_FBLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.fb.test.qa.LoginTest@14a54ef6]" started-at="2026-02-07T22:17:33 IST" name="teardown" finished-at="2026-02-07T22:17:37 IST" duration-ms="4160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.fb.test.qa.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2026-02-07T22:17:37 IST" name="RegistrationTest" finished-at="2026-02-07T22:17:48 IST" duration-ms="10103">
+      <class name="org.fb.test.qa.RegistrationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.fb.test.qa.RegistrationTest@11a82d0f]" started-at="2026-02-07T22:17:37 IST" name="setup" finished-at="2026-02-07T22:17:46 IST" duration-ms="8753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC002()[pri:0, instance:org.fb.test.qa.RegistrationTest@11a82d0f]" started-at="2026-02-07T22:17:46 IST" name="TC002" finished-at="2026-02-07T22:17:47 IST" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.fb.test.qa.RegistrationTest@11a82d0f]" started-at="2026-02-07T22:17:47 IST" name="teardown" finished-at="2026-02-07T22:17:48 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.fb.test.qa.RegistrationTest -->
+    </test> <!-- RegistrationTest -->
+  </suite> <!-- crossbrowsersuite -->
+</testng-results>

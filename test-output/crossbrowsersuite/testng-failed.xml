@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [crossbrowsersuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.utils.fb.qa.TestNGListernerUtils"/>
+  </listeners>
+  <test thread-count="2" name="LoginTest(failed)">
+    <classes>
+      <class name="org.fb.test.qa.LoginTest">
+        <methods>
+          <include name="TC001_FBLoginTest"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.fb.test.qa.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="2" name="RegistrationTest(failed)">
+    <classes>
+      <class name="org.fb.test.qa.RegistrationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC002"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.fb.test.qa.RegistrationTest -->
+    </classes>
+  </test> <!-- RegistrationTest(failed) -->
+</suite> <!-- Failed suite [crossbrowsersuite] -->

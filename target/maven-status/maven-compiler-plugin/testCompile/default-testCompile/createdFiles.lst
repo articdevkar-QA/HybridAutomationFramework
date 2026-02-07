@@ -1,0 +1,5 @@
+org\fb\test\qa\FBLoginPage.class
+org\fb\test\qa\LoggerTest.class
+org\fb\test\qa\LoginFBDatadriven.class
+org\fb\test\qa\LoginTest.class
+org\fb\test\qa\RegistrationTest.class
