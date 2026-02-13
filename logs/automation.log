@@ -745,3 +745,29 @@ Session ID: fb99713949005bc0b33829f9c7e34755
 2026-02-07 22:17:46 INFO  TestNGListernerUtils - Test execution is getting start
 2026-02-07 22:17:47 INFO  TestNGListernerUtils - Test Passed
 2026-02-07 22:17:48 INFO  TestNGListernerUtils - Test Finshed
+2026-02-08 23:58:05 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-08 23:58:08 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-08 23:58:11 INFO  TestNGListernerUtils - Test Passed
+2026-02-08 23:58:15 INFO  TestNGListernerUtils - Test Finshed
+2026-02-08 23:58:16 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-08 23:58:17 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-08 23:58:18 INFO  TestNGListernerUtils - Test Passed
+2026-02-08 23:58:19 INFO  TestNGListernerUtils - Test Finshed
+2026-02-13 22:57:20 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-13 22:57:35 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-13 22:57:36 INFO  TestNGListernerUtils - Test failed
+2026-02-13 22:57:36 DEBUG TestNGListernerUtils - Test Debugg
+2026-02-13 22:57:40 INFO  TestNGListernerUtils - Test Finshed
+2026-02-13 22:57:40 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-13 22:57:42 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-13 22:57:43 INFO  TestNGListernerUtils - Test Passed
+2026-02-13 22:57:43 INFO  TestNGListernerUtils - Test Finshed
+2026-02-13 22:58:41 INFO  TestNGListernerUtils - Test Suite Started : LoginTest
+2026-02-13 22:58:44 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-13 22:58:47 INFO  TestNGListernerUtils - Test failed
+2026-02-13 22:58:47 DEBUG TestNGListernerUtils - Test Debugg
+2026-02-13 22:58:51 INFO  TestNGListernerUtils - Test Finshed
+2026-02-13 22:58:51 INFO  TestNGListernerUtils - Test Suite Started : RegistrationTest
+2026-02-13 22:58:53 INFO  TestNGListernerUtils - Test execution is getting start
+2026-02-13 22:58:59 INFO  TestNGListernerUtils - Test Passed
+2026-02-13 22:58:59 INFO  TestNGListernerUtils - Test Finshed

@@ -15,15 +15,4 @@
       </class> <!-- org.fb.test.qa.LoginTest -->
     </classes>
   </test> <!-- LoginTest(failed) -->
-  <test thread-count="2" name="RegistrationTest(failed)">
-    <classes>
-      <class name="org.fb.test.qa.RegistrationTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="TC002"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- org.fb.test.qa.RegistrationTest -->
-    </classes>
-  </test> <!-- RegistrationTest(failed) -->
 </suite> <!-- Failed suite [crossbrowsersuite] -->

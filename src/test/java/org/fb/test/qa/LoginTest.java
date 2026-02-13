@@ -32,8 +32,8 @@ public class LoginTest extends BaseTest
 		fblp.login("Admin", "Admin@123");
 		ScreenshotUtils.captureScreenshot(BaseTest.getDriver(), "loginTest");
 		
-		//soft.assertEquals(BaseTest.getDriver().getTitle(), "Facebook","No Tiltle found");
-		//soft.assertAll();
+		soft.assertEquals(BaseTest.getDriver().getTitle(), "Facebook","No Tiltle found");
+		soft.assertAll();
 	}
 @AfterMethod
 	public void teardown() throws InterruptedException 

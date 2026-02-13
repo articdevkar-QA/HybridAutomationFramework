@@ -28,9 +28,11 @@ public class RegistrationTest extends BaseTest
 	}
 	
 	@Test
-	public void TC002() throws IOException
+	public void TC002() throws IOException, InterruptedException
 	{
+		
 		WebElement CreateNewAccountbtn= BaseTest.getDriver().findElement(By.xpath("//a[text()='Create new account']"));
+	
 		CreateNewAccountbtn.click();
 		soft.assertEquals(BaseTest.getDriver().getTitle(), "Sign up for Facebook","No title found");
 	}
