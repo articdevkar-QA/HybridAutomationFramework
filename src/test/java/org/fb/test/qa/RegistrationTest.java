@@ -30,7 +30,7 @@ public class RegistrationTest extends BaseTest
 	@Test
 	public void TC002() throws IOException, InterruptedException
 	{
-		
+		Thread.sleep(2000);
 		WebElement CreateNewAccountbtn= BaseTest.getDriver().findElement(By.xpath("//a[text()='Create new account']"));
 	
 		CreateNewAccountbtn.click();
