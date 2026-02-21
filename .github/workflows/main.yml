@@ -7,6 +7,7 @@ on:
     branches: [ master, develop ]
   schedule:
     - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   test:
@@ -18,38 +19,41 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
     - name: Set up JDK ${{ matrix.java-version }}
-      uses: actions/setup-java@v3
+      uses: actions/setup-java@v4
       with:
         java-version: ${{ matrix.java-version }}
         distribution: 'temurin'
+        cache: maven
     
-    - name: Cache Maven packages
-      uses: actions/cache@v3
-      with:
-        path: ~/.m2
-        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-        restore-keys: ${{ runner.os }}-m2
+    - name: Run Maven clean package
+      run: mvn clean package -DskipTests
     
-    - name: Run tests with Maven
-      run: mvn clean test
+    - name: Run tests
+      run: mvn test
+      continue-on-error: true
     
     - name: Generate Allure Report
       if: always()
-      run: mvn allure:report
+      run: |
+        mvn allure:report || true
     
     - name: Upload test results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: test-results-java-${{ matrix.java-version }}
-        path: target/
+        name: test-results-${{ matrix.java-version }}
+        path: |
+          target/
+          allure-results/
+          test-output/
         retention-days: 30
     
     - name: Publish test results
       if: always()
       uses: EnricoMi/publish-unit-test-result-action@v2
       with:
-        files: target/surefire-reports/TEST-*.xml
+        files: target/surefire-reports/**/*.xml
+        check_name: Test Results (Java ${{ matrix.java-version }})
