@@ -5,7 +5,7 @@ on:
     branches: ["master"]
   pull_request:
     branches: ["master"]
-  workflow_dispatch:   #manual execution
+  workflow_dispatch:
 
 jobs:
   run-tests:
@@ -28,23 +28,18 @@ jobs:
           key: maven-${{ runner.os }}-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             maven-${{ runner.os }}-
-      
-            - name: Install Chrome and dependencies
-              run: |
-               sudo apt-get update
-               sudo apt-get install -y chromium-browser
-               sudo apt-get install -y libxss1 libindicator7 xdg-utils fonts-liberation libnss3
-      
+
+      # ✅ Install Google Chrome (NOT chromium)
+      - name: Install Google Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: latest
+
       - name: Verify Chrome installation
-        run: chromium-browser --version
+        run: google-chrome --version
 
-      - name: Build project
-        run: mvn clean compile
-
-      - name: Run TestNG tests
-        run: mvn test --fail-at-end
-        env:
-          CHROME_BIN: /usr/bin/chromium-browser
+      - name: Build and Run Tests
+        run: mvn clean test --fail-at-end
 
       - name: Upload TestNG Reports
         if: always()
