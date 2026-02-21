@@ -1,4 +1,4 @@
-name: Selenium TestNG Automation Project
+name: Hybrid Automation Project
 
 on:
   push:
